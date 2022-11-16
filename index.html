@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/capivara.png" type="image/x-icon">
+    <title>Web Design</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="title">
+            Web Design
+        </div>
+    </header>
+    <nav id="nav"class="nav">
+        <div id="close" class="Close">
+            <img onclick="closeBar()" src="./img/close.png" alt="" width="20px">
+        </div>
+        <div id="open" class="Open">
+            <img onclick="openBar()" src="./img/open.png" alt="" width="20px">
+        </div>
+
+
+        <div onclick="openHist()" id="divHist" class="divHist">
+            <img  id="imgHist" src="./img/book.png" alt="" class="imgHist" width="38px" >
+            <a id="hist">História</a>     
+        </div>
+        <div onclick="openExem()" id="divExem" class="divExem">
+            <img id="imgExem" src="./img/exemplo.png" alt="" class="imgExem" width="38px">
+            <a id="exemp">Exemplos</a>     
+        </div>
+        <div onclick="openAbout()" id="divAbout" class="divAbout" >
+            <img id="imgAbout" src="./img/about.png" alt="" class="imgAbout" width="38px">
+            <a id="about">Sobre</a>     
+        </div>
+        <div class="version">V3.0.0 CC</div>
+    </nav>
+    <section class="section">
+        <div id="histText" class="histText">
+            <h1>História do Web Design</h1>
+
+            <p>A história do web design ainda está se formando e não é tão antiga, tendo sua origem no ínicio dos anos 90, ainda como fonte de estúdos e hoje é usada pela grande maioria da população como parte essencial de seu dia a dia.</p>
+            <p>De 1991 (lançamento do primeiro site) até hoje, a internet evoluiu numa velocidade muito grande, chegando hoje aos celulares, computadores, e também objetos que ficam dentro de nossas casas, desde televisões, robôs limpadores, lâmpadas e muito mais, com isso o design para web teve que evoluir.</p>
+
+            <h2>O começo da era da internet e os primeiros sites</h2>
+
+            <p>Em agosto de 1990 – Tim Berners-lee desenvolveu e rodou o primeiro navegador e servidor web. Uma cópia do primeiro site ainda está disponível no w3.org. O site possuía alguns links que serviam para explicar o que era a internet.</p>
+
+            <img src="./img/1siteFoto.png" alt="" srcset="" width="100%">
+
+            <p>Em 1994 o primeiro site de delivery foi lançado pela Pizza Hut, em Santa Cruz – California, permitindo o pedido de pizzas pela internet.</p>
+            
+            <p>Também em 1994, foi formado o World Wide Web Consortium (W3C), que começou a definir os padrões que seriam usados nas linguagem de programações, e até hoje é a principal referência que auxilia na produção de novos browsers e linguagens usadas, como HTML, Javascript, etc.</p>
+            
+            <p>Em 1996 temos também o lançamento de um dos maiores e-commerces dos tempos atuais: Amazon.
+                Fundada por Jeff Bezos, a Amazon começou como uma grande livraria online, e foi expandindo seus serviços para CDs, DVDs, roupas, até se tornar a gigante de hoje em dia</p>
+        
+            <img src="./img/1siteAmazon.jpg" alt="">
+            
+            <h2>O começo da era dos sites em Flash</h2>
+
+            <p>Descontinuado hoje em dia, o Flash era uma plataforma que permitia aos designers a incorporação de música, vídeo e animação nos sites, criando uma experiência interativa que antes não era possível. O Flash marcou uma geração, trazendo grandes inovações tecnológicas a web, como menus interativos, páginas de abertura, animações e botões com visuais detalhados.</p>
+
+            <h2>Dias de Hoje – performance e design flat</h2>
+
+            <p>Até poucos anos atrás, ainda que responsivos, os sites eram mais complexos, e hoje mais e mais performance tem se tornado um dos principais tópicos, já que o acesso via celulares já passou o acesso via desktop (cerca de 60% dos acessos a websites são realizados com celulares).</p>
+                
+            <p>Esta demanda está tornando ainda mais importante a performance de um site, sendo fator importante até para aparecer nas páginas de busca. E uma tendência em design que vem se tornando mais perto é o Flat, onde você utiliza de cores e elementos mais simples para trazer uma melhor experiência ao usuário.</p>
+                
+            <img style="margin-bottom: 4%;" src="./img/historia-da-web-design-flat-material-1.png" alt="" width="100%">
+        </div>
+        <div id="exemText" class="exemText"></div>
+        <div id="aboutText" class="aboutText"></div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
