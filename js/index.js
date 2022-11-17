@@ -111,7 +111,7 @@ function openHist(){
     divExem.style.backgroundColor ="transparent"
     divAbout.style.backgroundColor ="transparent"
 
-    divHist.style.backgroundColor ="rgb(30, 30, 30)"
+    divHist.style.backgroundColor ="rgb(22, 22, 22)"
     divHist.style.borderRadius = "5%"
 
     exemText.style.display = "none"
@@ -124,7 +124,7 @@ function openExem(){
     divHist.style.backgroundColor ="transparent"
     divAbout.style.backgroundColor ="transparent"
 
-    divExem.style.backgroundColor ="rgb(30, 30, 30)"
+    divExem.style.backgroundColor ="rgb(22, 22, 22)"
     divExem.style.borderRadius = "5%"
 
     histText.style.display = "none"
@@ -137,7 +137,7 @@ function openAbout(){
     divHist.style.backgroundColor ="transparent"
     divExem.style.backgroundColor ="transparent"
 
-    divAbout.style.backgroundColor ="rgb(30, 30, 30)"
+    divAbout.style.backgroundColor ="rgb(22, 22, 22)"
     divAbout.style.borderRadius = "5%"
 
     histText.style.display = "none"
