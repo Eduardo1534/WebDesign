@@ -146,7 +146,7 @@ body{
     font-size: 18px;
     font-family: arial;
 }
-@media screen and (max-width:1920px){
+@media screen and (min-width:1920px){
     .section{
         height: 880px;
     }
