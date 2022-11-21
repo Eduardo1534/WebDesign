@@ -150,4 +150,16 @@ body{
     .section{
         height: 880px;
     }
+    .divHist img{
+        width: 50px;
+    }
+    .divExem img{
+        width: 50px;
+    }
+    .divAbout img{
+        width: 50px;
+    }
+    .nav div a{
+        font-size: 130%;
+    }
 }
